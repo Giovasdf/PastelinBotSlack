@@ -15,18 +15,7 @@ Este bot para Slack está diseñado para enviar mensajes de códigos de programa
 
 ### Paso 1: Configura el Bot en Slack
 
-1. **Crea una Aplicación en Slack**
-   - Ve a [Slack API](https://api.slack.com/apps) y haz clic en "Create New App".
-   - Elige "From scratch" y proporciona un nombre para tu app y selecciona el espacio de trabajo de Slack.
-
-2. **Configura los Permisos**
-   - Ve a "OAuth & Permissions" en la configuración de la aplicación.
-   - Añade los permisos necesarios para que el bot pueda enviar mensajes. Usualmente, necesitarás permisos como \`chat:write\`.
-
-3. **Añade la URL de Redirección**
-   - En la sección "OAuth & Permissions", añade la URL de redirección que se usará después de la instalación del bot. Esta URL debe apuntar a una página web donde los usuarios sean redirigidos después de autorizar la aplicación.
-
-4. **Instala la Aplicación**
+1. **Instala la Aplicación**
    - Usa el botón de "Install App" para instalar la aplicación en tu espacio de trabajo de Slack.
 
 ### Paso 2: Configura la Extensión en VSCode
